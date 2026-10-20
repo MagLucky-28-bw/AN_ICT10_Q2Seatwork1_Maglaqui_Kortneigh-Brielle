@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICT Club Member Checker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="top-label">ICT 10 | SECOND QUARTER</div>
+
+        <div class="card">
+            <div class="club-icon">★</div>
+            <h1>ICT Club Checker</h1>
+            <p class="subtitle">Candidate Verification System</p>
+            <p class="intro">Hello! Enter your name below to check if you are a member of our ICT Club.</p>
+
+            <form id="member-form">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" placeholder="e.g. Joseph" autocomplete="given-name" required>
+
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" placeholder="e.g. Reto" autocomplete="family-name" required>
+
+                <button type="submit" id="check-button">Check My Name →</button>
+            </form>
+
+            <div class="result-box" id="result" role="status">
+                Your verification result will appear here.
+            </div>
+        </div>
+
+        <p class="footer">Made for ICT 10 Seatwork #1 • Second Quarter</p>
+    </div>
+
+    <script type="py" src="./main.py"></script>
+</body>
+</html>

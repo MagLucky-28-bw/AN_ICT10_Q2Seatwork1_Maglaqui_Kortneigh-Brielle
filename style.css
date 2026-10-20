@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: #eef6ff;
+    color: #263858;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 90%;
+    max-width: 440px;
+    margin: 55px auto;
+    text-align: center;
+}
+
+.top-label {
+    color: #4c6a92;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: white;
+    border: 2px solid #dbe9fb;
+    border-radius: 18px;
+    padding: 30px;
+    box-shadow: 0 8px 20px #c6d7ee;
+}
+
+.club-icon {
+    display: inline-block;
+    padding: 12px 16px;
+    border-radius: 50%;
+    background: #fff2a8;
+    color: #e19b26;
+    font-size: 28px;
+}
+
+h1 {
+    font-size: 27px;
+    margin: 16px 0 5px;
+    color: #2c5e9e;
+}
+
+.subtitle {
+    margin: 0;
+    font-size: 13px;
+    font-weight: bold;
+    color: #6b90bb;
+}
+
+.intro {
+    font-size: 14px;
+    line-height: 1.7;
+    margin: 22px 0;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 16px 0 7px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #bbcee7;
+    border-radius: 9px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+input:focus {
+    outline: 2px solid #8fb9e9;
+    border-color: #8fb9e9;
+}
+
+button {
+    width: 100%;
+    background: #4b8dd4;
+    color: white;
+    border: 0;
+    border-radius: 9px;
+    padding: 13px;
+    margin-top: 22px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #316eaf;
+}
+
+.result-box {
+    margin-top: 22px;
+    padding: 16px 12px;
+    border-radius: 10px;
+    background: #f0f7ff;
+    border: 1px dashed #8eb4df;
+    color: #355f90;
+    font-size: 14px;
+    line-height: 1.6;
+    min-height: 58px;
+}
+
+.footer {
+    font-size: 12px;
+    color: #6b86a8;
+    margin-top: 20px;
+}
+
+@media (max-width: 480px) {
+    .container {
+        margin: 30px auto;
+    }
+
+    .card {
+        padding: 22px;
+    }
+}
